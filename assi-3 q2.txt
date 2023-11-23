@@ -1,0 +1,30 @@
+QUESTION:
+
+In a task scheduling application, describe how a hash table can be used to store and quickly
+retrieve scheduled tasks based on their unique identifiers or names. Discuss the advantages
+of using a hash table for task management.
+
+SOLUTION:
+
+In a task scheduling application, a hash table can be used to store and quickly retrieve scheduled tasks based on their unique identifiers or names. Each task can be assigned a unique identifier or name, which can then be used as the key in the hash
+ table. The value associated with each key would be the details of the scheduled task, such as
+ the time, date, and any other relevant information.
+
+When a user wants to retrieve a specific task, they can simply provide the unique identifier or
+name, and the hash table will quickly locate the corresponding value, allowing the user to access
+ the details of the task.
+
+The advantages of using a hash table for task management include:
+1. Fast retrieval: Hash tables have constant time complexity for retrieval, meaning that the time
+ it takes to retrieve a task does not depend on the number of tasks in the table. This makes it
+ efficient for quickly accessing scheduled tasks.
+2. Efficient storage: Hash tables use a key-value pair system, which allows for efficient storage
+ and retrieval of tasks based on their unique identifiers or names.
+3. Easy updates: Hash tables allow for easy insertion, deletion, and updating of tasks, making it
+ simple to manage the task schedule.
+4. Collision handling: Hash tables are designed to handle collisions, ensuring that tasks with
+the same hash value can be stored and retrieved without issue.
+
+Overall, using a hash table for task management provides a fast and efficient way to store and
+ retrieve scheduled tasks based on their unique identifiers or names. It simplifies the task
+ scheduling process and allows for quick access to task details.

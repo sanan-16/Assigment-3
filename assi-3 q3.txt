@@ -1,0 +1,26 @@
+QUESTION:
+
+ Suppose you have a sorted list of student exam scores. Explain how Binary Search can be
+ applied to identify the position of a particular score in the list. Discuss any assumptions
+ or requirements for using Binary Search in this scenario.
+
+SOLUTION:
+
+Binary Search can be applied to identify the position of a particular score in a sorted list of
+student exam scores by repeatedly dividing the list in half and comparing the middle element
+with the target score.
+
+The process begins by comparing the target score with the middle element of the list. If the
+target score is less than the middle element, then the search continues in the lower half of
+the list. If the target score is greater than the middle element, then the search continues
+ in the upper half of the list. This process is repeated until the target score is found, or
+  until there are no more elements to search.
+
+The assumptions and requirements for using Binary Search in this scenario include:
+1. The list of student exam scores must be sorted in ascending or descending order.
+2. The list must be accessible for random access, such as an array or a data structure that
+supports efficient indexing.
+3. The target score must be comparable to the elements in the list, i.e., it must be of the
+same data type and follow the same ordering as the elements in the list.
+4. The list should not be constantly changing, as Binary Search is not suitable for dynamic
+ or frequently updated lists.

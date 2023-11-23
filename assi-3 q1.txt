@@ -1,0 +1,23 @@
+QUESTION:
+
+When designing a user authentication system, explain how a hash table can store user credentials
+securely. Discuss the use of hash functions in password hashing and the importance of collision
+resistance.
+
+SOLUTION:
+
+A hash table can store user credentials securely by using hash functions to convert passwords into a fixed-length string of characters, known as a hash. When a user creates an account or changes their password, the hash function is applied to their password and the resulting hash is stored in the hash table. When the user logs in, the hash function is applied to the password they provide,
+and the resulting hash is compared to the hash stored in the hash table. If the two hashes
+match, the user is granted access.
+
+Hash functions are important in password hashing because they provide a one-way encryption of
+the password. This means that the original password cannot be derived from the hash.
+Additionally, hash functions are designed to be deterministic, meaning that the same password
+will always produce the same hash. This allows for easy comparison of hashes during the
+authentication process.
+
+Collision resistance is important in hash functions because it ensures that two different
+passwords do not produce the same hash. If two passwords produce the same hash, it is known as
+a collision. Collisions can be exploited by attackers to gain unauthorized access to user
+accounts. Therefore, it is important to use hash functions that are designed to be collision
+resistant, such as SHA-256 or bcrypt.

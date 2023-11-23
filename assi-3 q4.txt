@@ -1,0 +1,20 @@
+QUESTION:
+
+In a scientific experiment, data points are collected and sorted based on a parameter. Explain
+how Binary Search could be applied to locate specific data points efficiently. Discuss the
+scalability of Binary Search for large datasets.
+
+SOLUTION:
+
+Binary Search could be applied in a scientific experiment to efficiently locate specific data
+points that have been sorted based on a parameter. This algorithm works by repeatedly dividing
+in half the portion of the data that could contain the target value, and then comparing the
+target value to the middle element of the resulting portion. This process continues until the
+target value is found or the search space is empty.
+
+In terms of scalability for large datasets, Binary Search is efficient because it has a time
+complexity of O(log n), where n is the number of data points. This means that as the size of
+the dataset increases, the time it takes to locate a specific data point using Binary Search
+grows at a much slower rate compared to linear search algorithms. Therefore, Binary Search
+is well-suited for large datasets and can efficiently locate specific data points even as
+the dataset size increases.
